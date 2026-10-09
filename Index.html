@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- ============================================================
+     TEMPLATE — Página pessoal com CSS Grid
+     Programação Web / Introdução às Tecnologias Web — IFAL
+     COMO USAR:
+     1) Copie ESTE index.html para o seu repositório (não mude a estrutura).
+     2) Escolha UM dos 3 temas de CSS (tema-1-indigo.css, tema-2-escuro.css
+        ou tema-3-editorial.css) e salve-o no seu projeto como  estilo.css
+        (é o nome que este HTML carrega logo abaixo).
+     3) Troque os textos marcados com "TROQUE" pelo seu conteúdo.
+     IMPORTANTE: o LAYOUT é feito com CSS Grid e é o mesmo nos 3 temas.
+     Você escolhe a APARÊNCIA (fonte, cores, bordas), não o layout.
+     ============================================================ -->
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Pessoal — Ruan NIckollas </title>
+  <!-- Salve o tema escolhido como "estilo.css" (mesma pasta deste arquivo) -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <div class="pagina">
+
+    <!-- ====== CABEÇALHO — TROQUE pelo seu nome e sua frase ====== -->
+    <header class="cabecalho">
+      <h1>Ruan NIckollas Da Silva Ferreira</h1>
+      <p>Estudante de Sistemas de Informação · IFAL</p>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <!-- ====== CONTEÚDO PRINCIPAL ====== -->
+    <main class="principal">
+      <section id="sobre" class="cartao">
+        <h2>Sobre mim</h2>
+        <!-- TROQUE por uma breve apresentação sua -->
+        <p>Sou estudante do instituto federal de alagoas (ifal) campus maceió
+          cursando desenvolvimento de sistemas com o ensino médio integrado atualmente 1° ano (2026).
+          Sou do município de paripueira/al. Meu endereço: Av. Santo Amaro,
+          Casa - 02, Centro, Paripueira/AL, 57935-000. Eu tenho 15 anos, nasci no dia 20/11/2010<br> E tenho como
+          objetivo me profissionalizar na área, realizando os mais diversos
+          projetos e com eles aprender cada vez mais sobre esse setor. Alguna de meus hobbies são escrita,<br>
+          e leitura. gosto de usar meu tempo para ser criativo.
+          atualmento estou aprendendo.</p>
+      </section>
+
+      <section id="projetos" class="cartao">
+        <h2>Projetos</h2>
+        <!-- Galeria com Grid: cada .projeto é um card; adicione/remova à vontade -->
+        <div class="projetos">
+          <article class="projeto">
+            <h3>Projeto 1</h3>
+            <p>O que é e o que você fez. TROQUE por um projeto seu.</p>
+          </article>
+          <article class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Descrição curta do projeto.</p>
+          </article>
+          <article class="projeto">
+            <h3>Projeto 3</h3>
+            <p>Descrição curta do projeto.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====== BARRA LATERAL ====== -->
+    <aside class="lateral">
+      <section class="cartao">
+        <h2>Habilidades</h2>
+        <!-- TROQUE pelas suas habilidades -->
+        <ul class="habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Grid</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="contato" class="cartao">
+        <h2>Contato</h2>
+        <!-- TROQUE pelos seus links -->
+        <ul class="contato">
+          <li>✉️ <a href="mailto:voce@exemplo.com">rnsf1@aluno.ifal.edu.br</a></li>
+          <li>🐙 <a href="https://github.com/RuanNickollas">https://github.com/RuanNickollas</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- ====== RODAPÉ — TROQUE o nome ====== -->
+    <footer class="rodape">© 2026 Ruan NIckollas · feito com HTML + CSS Grid</footer>
+
+  </div>
+</body>
+
+</html>
